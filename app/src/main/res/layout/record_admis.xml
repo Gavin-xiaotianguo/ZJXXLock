@@ -1,0 +1,104 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gxt.jlwlcokapp.DoorStateFragment">
+
+    <LinearLayout
+        android:id="@+id/main_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:background="@color/sweet_dialog_bg_color"
+        android:weightSum="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/sweet_dialog_bg_color"
+            android:textColor="@color/colorBlack"
+            android:id="@+id/select_room"
+            android:layout_weight="0.33"
+            />
+            <Button
+            android:id="@+id/record_btn"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="开锁"
+            android:background="@drawable/blue_button_background"
+            />
+            <Button
+                android:id="@+id/record_btn1"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:text="时间匹配"
+
+                android:background="@drawable/blue_button_background"
+                />
+    </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorGreenYellow"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/colorGreenYellow"
+            />
+        <ListView
+            android:id="@+id/recordview0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:dividerHeight="2dp" >
+        </ListView>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/colorGreenYellow"
+            />
+
+        <ListView
+            android:id="@+id/recordview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:dividerHeight="2dp" >
+        </ListView>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textSize="15dp"
+            android:textColor="@color/colorLucency"
+            android:text="text"
+            android:id="@+id/admin_op"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/colorAuqamarin"
+            />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/colorGreenYellow"
+            />
+
+    </LinearLayout>
+
+</FrameLayout>

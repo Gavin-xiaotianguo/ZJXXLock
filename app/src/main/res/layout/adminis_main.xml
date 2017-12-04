@@ -1,0 +1,163 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zjxxlock.zjxxlock.DoorStateFragment">
+
+    <LinearLayout
+        android:id="@+id/main_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorGreenYellow"
+            />
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:weightSum="3"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1.0"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="”教学楼"
+                android:background="@color/colorGreenYellow"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimary"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1.0"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="楼层"
+                android:background="@color/colorGreenYellow"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimary"/>
+                />
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="match_parent"
+                android:text="时间"
+                android:id="@+id/Amain_issued"
+                android:background="@color/colorAccent"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="申请"
+                android:background="@color/colorGreenYellow"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimary"
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/colorGreenYellow"
+            />
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:weightSum="3"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            >
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1.0"
+                android:layout_height="match_parent"
+                android:id="@+id/admis_building"></Spinner>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1.0"
+                android:layout_height="match_parent"
+                android:id="@+id/admis_floor"></Spinner>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="match_parent"
+                android:text="查询"
+                android:id="@+id/admis_reply"
+                android:background="@color/colorLimeGreen"
+        />
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="match_parent"
+                android:id="@+id/admis_Issued"
+                android:background="@color/colorAccent"/>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/colorGreenYellow"
+            />
+        <ListView
+            android:id="@+id/admisview0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@null"
+            android:dividerHeight="2dp" >
+        </ListView>
+
+        <ListView
+            android:id="@+id/admisview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@null"
+
+            android:dividerHeight="2dp" >
+        </ListView>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textSize="15dp"
+            android:textColor="@color/colorLucency"
+            android:text="text"
+            android:id="@+id/admin_op"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/colorAuqamarin"
+            />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/colorGreenYellow"
+            />
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/simplelay2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/itemlay"
+    android:orientation="horizontal"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:id="@+id/lineapply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingRight="20dp" >
+
+
+        <TextView
+            android:id="@+id/admistxt6_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:padding="3dp"
+            android:textColor="#000000"
+            android:background="@color/sweet_dialog_bg_color"
+            android:textSize="18sp"
+
+            android:layout_weight="0.33" />
+        <TextView
+            android:id="@+id/admistxt6_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:padding="3dp"
+            android:textColor="#000000"
+            android:background="@color/sweet_dialog_bg_color"
+            android:layout_marginLeft="30dp"
+            android:textSize="18sp"
+            android:layout_weight="0.33" />
+        <TextView
+            android:id="@+id/admistxt6_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:padding="3dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="30dp"
+            android:background="@color/sweet_dialog_bg_color"
+            android:textSize="18sp"
+            android:layout_weight="0.33" />
+
+        <TextView
+            android:id="@+id/admistxt6_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:padding="3dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="30dp"
+            android:background="@color/sweet_dialog_bg_color"
+            android:textSize="18sp"
+            android:layout_weight="0.33" />
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
